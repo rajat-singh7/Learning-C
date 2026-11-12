@@ -43,10 +43,10 @@ int main()
         printf("%d\n", ptrr[i]);
     }
 
-    //free---> we use it to free memory:
+    // free---> we use it to free memory:
     free(ptrr);
 
-    //realloc-->Used to increase or decrease memory size:
-    pointer = realloc(pointer,8); //here we increase the size
+    // realloc-->Used to increase or decrease memory size:
+    pointer = realloc(pointer, 8); // here we increase the size
     return 0;
 }
