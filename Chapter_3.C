@@ -72,17 +72,20 @@ int main()
     default:
         printf("Please enter a valid opertion\n");
     }
-    //Write a program for uppper case and lower case:
+    // Write a program for uppper case and lower case:
     char ch;
     printf("enter character:\n");
-    scanf(" %c",&ch);
-    if(ch >= 'a' && ch <= 'z'){
+    scanf(" %c", &ch);
+    if (ch >= 'a' && ch <= 'z')
+    {
         printf("Lower case\n");
     }
-    else if(ch >= 'A' && ch <= 'Z'){
+    else if (ch >= 'A' && ch <= 'Z')
+    {
         printf("Upper case\n");
     }
-    else{
+    else
+    {
         printf("Not english\n");
     }
     return 0;
