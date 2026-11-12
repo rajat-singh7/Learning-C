@@ -64,5 +64,4 @@ int main(){
     printf("Number 1 after %d\n",num1);
     printf("Number 2 after %d\n",num2);
     return 0;
-    
 }
