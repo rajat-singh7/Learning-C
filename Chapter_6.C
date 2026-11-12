@@ -112,6 +112,5 @@ int main()
     int sum, prod, average;
     doWork(n1, n2, &sum, &prod, &average);
     printf("Sum = %d & product = %d & average = %d", sum, prod, average);
-
     return 0;
 }
