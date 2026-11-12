@@ -76,43 +76,49 @@ int main()
     } while (1);
     printf("Your loop is complete");
 
-    //Question:
-    //keep taking numbers as input from user until user enters a number which is multiple of 7:
+    // Question:
+    // keep taking numbers as input from user until user enters a number which is multiple of 7:
     int k;
-    do{
+    do
+    {
         printf("enter:\n");
-        scanf("%d",&k);
-        printf("%d",k);
-        if(k%7==0){
+        scanf("%d", &k);
+        printf("%d", k);
+        if (k % 7 == 0)
+        {
             break;
         }
-    }while(1);
+    } while (1);
     printf("Loop end\n");
 
-    //Continue:
-    for(int i = 0;i<=20;i++){
-        if(i==17){
+    // Continue:
+    for (int i = 0; i <= 20; i++)
+    {
+        if (i == 17)
+        {
             continue;
         }
-        printf("%d\n",i);
+        printf("%d\n", i);
     }
 
-    //Factorial 
+    // Factorial
     int f;
     printf("enter the number for factorial:\n");
-    scanf("%d",&f);
+    scanf("%d", &f);
     int fact = 1;
-    for( int i = 1;i<=f;i++){
-        fact = fact*i;
+    for (int i = 1; i <= f; i++)
+    {
+        fact = fact * i;
     }
-    printf("The factorial is:%d",fact);
+    printf("The factorial is:%d", fact);
 
-    //Print the Reverse of table for m;
+    // Print the Reverse of table for m;
     int m;
     printf("enter the number for table:");
-    scanf("%d",&m);
-    for(int i = 10;i>=1;i--){
-        printf("%d * %d = %d\n",m,i,m*i);
+    scanf("%d", &m);
+    for (int i = 10; i >= 1; i--)
+    {
+        printf("%d * %d = %d\n", m, i, m * i);
     }
 
     return 0;
